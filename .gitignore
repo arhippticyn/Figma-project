@@ -1,0 +1,47 @@
+# ========================
+# Parcel / Node.js Ignore
+# ========================
+
+# node_modules — завжди ігноруємо, воно важить гігабайти
+node_modules/
+
+# dist — зібрані файли Parcel (не пушимо у репо)
+dist/
+
+# .parcel-cache — кеш Parcel (для швидкості, не потрібен у гіті)
+.parcel-cache/
+
+# локальні налаштування IDE
+.vscode/
+.idea/
+
+# ОС кеші
+.DS_Store
+Thumbs.db
+
+# логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env-файли (якщо використовуєш)
+.env
+.env.*.local
+
+# Бекупи редакторів або системи
+*.bak
+*.swp
+*.swo
+*~
+
+# Кеши sass, якщо юзаєш
+.sass-cache/
+
+# Mac Finder metadata
+__MACOSX/
+
+# Optional: локальний .DS_Store у підпапках
+**/.DS_Store
+
+# Optional: якщо компілюєш HTML-фрагменти (partials) у інші файли вручну
+*.compiled.html
